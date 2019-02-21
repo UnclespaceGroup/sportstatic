@@ -5,7 +5,6 @@ class Register extends React.Component {
   render (){
     return (
       <div>
-        Football
         <Login
           title={'Вход'}
           buttonName={'Отправить'}

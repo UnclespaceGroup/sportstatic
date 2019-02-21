@@ -1,0 +1,35 @@
+
+.container {
+  display: flex;
+  width: 100%;
+  background-color: orange;
+  height: 55px;
+
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+
+    .buttonResult {
+      display: block;
+      height: 55px;
+      cursor: pointer;
+      border: none;
+      padding:0px 20px;
+      width: auto;
+      font-size: 20px;
+      background-color: orange;
+    }
+
+    .buttonMenu {
+      display: block;
+      height: 55px;
+      border: none;
+      cursor: pointer;
+      padding:0px 20px;
+      width: auto;
+      font-size:20px;
+      background-color: orange;
+    }
+  }
+}

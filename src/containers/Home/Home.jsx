@@ -5,17 +5,19 @@ import im1 from '../../static/body1.jpg'
 import im2 from '../../static/body2.jpg'
 import im3 from '../../static/body3.jpg'
 import im4 from '../../static/body4.jpg'
+import Header from "../../component/Header/Header";
+
 
 const cards = [
   {
-    title: 'обычная тренировка',
-    description: 'Сожми ягодицы, что позволит держать все тело в безопасном для поясницы положении. ',
+    title: 'Пауэрлифтинг',
+    description: 'Силовой вид спорта, суть которого заключается в преодолении сопротивления максимально тяжёлого для спортсмена веса. ',
     image: im1,
     url: '/',
     type: 'элементарная тренировка'
   },
   {
-    title: 'обычная тренировка',
+    title: 'Бодибилдинг',
     description: 'Напряги мышцы поясничного отдела (те, что разгибают позвоночник), сведи лопатки, опусти плечи, подай грудь вперед. ',
     image: im2,
     url: '/Register',
@@ -39,8 +41,12 @@ const cards = [
 
 class Home extends React.Component {
   render () {
+
     return (
+        <div>
+          <Header/>
       <div className={s.container}>
+
         <div className={s.title}>Выбери тип тренировки</div>
         <div className={s.row}>
           {
@@ -52,6 +58,7 @@ class Home extends React.Component {
           }
         </div>
       </div>
+        </div>
     )
   }
 }

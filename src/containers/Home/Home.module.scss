@@ -1,23 +1,37 @@
+
+body {
+  margin: 0;
+}
 .container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  background-color: dimgray;
+  padding-bottom: 8px;
 
-  .title{
+
+  .title {
     font-size: 50px;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
+    color: aliceblue;
   }
 
-  .row{
+  .row {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    a:hover{
+
+    }
 
   }
+
   .col {
     width: 22%;
   }
 }
+
+
