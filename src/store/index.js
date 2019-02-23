@@ -13,7 +13,7 @@ export const initialStore = {
       title: 'Тяжелая атлетика',
       description: 'Сожми ягодицы, что позволит держать все тело в безопасном для поясницы положении. ',
       image: im1,
-      url: '/workout/1',
+      url: '/workout/0',
       type: 'Занятия в зале',
       types: [
         {
@@ -30,7 +30,7 @@ export const initialStore = {
       title: 'обычная тренировка',
       description: 'Напряги мышцы поясничного отдела (те, что разгибают позвоночник), сведи лопатки, опусти плечи, подай грудь вперед. ',
       image: im2,
-      url: '/workout/2',
+      url: '/workout/1',
       type: 'элементарная тренировка'
     },
     {
@@ -54,21 +54,21 @@ export const initialStore = {
     gim: {
       today: {
         date: 'Сегодня',
-        approach: {
-          1: {
+        approach: [
+          {
             mass: 25,
             count: 10
           }
-        }
+        ]
       },
       yesterday: {
         date: 'Вчера',
-        approach: {
-          1: {
+        approach: [
+          {
             mass: 20,
             count: 11
           }
-        }
+        ]
       }
     }
   }

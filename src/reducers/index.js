@@ -11,7 +11,13 @@ export default (state = initialStore, action) => {
     case types.ADD_RESULT:
       const data = action.payload
       console.log(data)
-      const date = new Date().toJSON().slice(0,10).replace(/-/g,'/')
+      const date = new Date().toJSON().slice(0, 10).replace(/-/g, '/')
+      const currentObject = {mass: data.mass, count: data.count}
+
+      const current = state.profile[data.type][date]
+        ? state.profile[data.type][date].approach.concat(currentObject)
+        : [{currentObject}]
+
 
       return {
         ...state,
@@ -21,12 +27,7 @@ export default (state = initialStore, action) => {
             ...state.profile[data.type],
             [date]: {
               date: date,
-              approach: {
-                [data]: {
-                  mass: data.mass,
-                  count: data.count
-                }
-              }
+              approach: current
             }
           }
         }
