@@ -2,7 +2,7 @@ import React from 'react'
 import { bindActionCreators } from 'redux'
 import * as actions from '../actions/index'
 import { connect } from 'react-redux'
-import Workout from '../pages/WorkoutContainer/Workout'
+import Workout from '../pages/Workout/Workout'
 
 
 class WorkoutContainer extends React.Component {
