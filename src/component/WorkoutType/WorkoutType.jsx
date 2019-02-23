@@ -27,17 +27,16 @@ class WorkoutType extends React.Component {
           <div className={s.col}>
             <div className={s.wrapper}>
               <div className={s.image} style={{backgroundImage: `url(${image})`}} />
+              <div className={s.form}>
+                <AddForm {...{id, title, type: 'gim'}} />
+              </div>
             </div>
           </div>
           <div className={s.col}>
             <div className={s.wrapper}>
               <div className={s.header} onClick={click}>{title}</div>
               <div className={s.description}>{description}</div>
-              <div className={s.form}>
-                <AddForm {...{id, title, type: 'gim'}} />
-              </div>
               <div className={s.result}>
-                <div className={s.buttonResult} onClick={click}>{open ? 'Скрыть результаты' : 'Показать результаты'}</div>
                 <Table {...{type: 'gim'}} />
               </div>
             </div>

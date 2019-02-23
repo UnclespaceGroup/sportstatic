@@ -16,9 +16,9 @@ export default (state = initialStore, action) => {
 
       const current = state.profile[data.type][date]
         ? state.profile[data.type][date].approach.concat(currentObject)
-        : [{currentObject}]
+        : [currentObject]
 
-
+      console.log(current)
       return {
         ...state,
         profile: {

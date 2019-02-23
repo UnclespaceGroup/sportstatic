@@ -1,6 +1,6 @@
 import React from 'react'
 import s from './Workout.module.scss'
-import WorkoutType from '../../component/DropDown/WorkoutType'
+import WorkoutType from '../../component/WorkoutType/WorkoutType'
 import _ from 'lodash'
 
 class Workout extends React.Component {

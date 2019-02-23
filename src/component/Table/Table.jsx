@@ -14,7 +14,6 @@ class Table extends React.Component {
         type
       }
     } = this
-    console.log(profile)
     return (
       <div className={s.container}>
         {
