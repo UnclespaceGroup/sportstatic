@@ -7,3 +7,8 @@ node_js:
 branches:
   only:
     - master
+deploy:
+  provider: heroku
+  app: "denisproject"
+  api_key:
+    secure: "649009b8-2662-4295-b7fa-d717339a8e07"
