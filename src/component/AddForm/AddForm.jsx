@@ -12,9 +12,6 @@ class AddForm extends React.Component {
 
   render () {
     const {
-      props: {
-        title
-      },
       state: {
         mass,
         count
@@ -24,21 +21,25 @@ class AddForm extends React.Component {
     } = this
     return (
       <div className={s.container}>
-        <div className={s.title}>{title}</div>
-        <input className={s.text}
-               onChange={(e) => {change(e,'mass')}}
-               value={mass}
-               placeholder={'Масса'}
-        />
-        <input className={s.text}
-               onChange={(e) => {change(e,'count')}}
-               value={count}
-               placeholder={'Количество подходов'}
-        />
+        <div className={s.wrapper}>
+          <input className={s.text}
+                 onChange={(e) => {change(e, 'mass')}}
+                 value={mass}
+                 type={'number'}
+                 placeholder={'Масса'}
+          />
+          <input className={s.text}
+                 onChange={(e) => {change(e, 'count')}}
+                 value={count}
+                 type={'number'}
+                 placeholder={'Количество подходов'}
+          />
+        </div>
         <div
           className={s.button}
           onClick={click}
-        >Сохранить</div>
+        >Сохранить
+        </div>
       </div>
     )
   }
@@ -63,6 +64,7 @@ class AddForm extends React.Component {
     })
   }
 }
+
 const mapStateToProps = (state) => {
   return {
     cards: state.cards

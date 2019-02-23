@@ -58,6 +58,18 @@ export const initialStore = {
           {
             mass: 25,
             count: 10
+          },
+          {
+            mass: 25,
+            count: 10
+          },
+          {
+            mass: 25,
+            count: 10
+          },
+          {
+            mass: 25,
+            count: 10
           }
         ]
       },

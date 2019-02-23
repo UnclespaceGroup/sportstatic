@@ -7,14 +7,7 @@
     text-align: center;
   }
 
-  .row{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-  }
-  .col {
-    width: 22%;
+  .wrapper {
+    padding: 0 50px;
   }
 }
