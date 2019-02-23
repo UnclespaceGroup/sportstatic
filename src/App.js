@@ -5,6 +5,7 @@ import HomeContainer from './containers/HomeContainer'
 import { BrowserRouter } from 'react-router-dom'
 import HttpsRedirect from 'react-https-redirect'
 import { store } from './store'
+import WorkoutContainer from './containers/WorkoutContainer'
 
 class App extends Component {
   render () {
@@ -14,6 +15,7 @@ class App extends Component {
           <BrowserRouter>
             <Switch>
               <Route exact path={'/'} component={HomeContainer} />
+              <Route path={'/workout/:number'} component={WorkoutContainer} />
             </Switch>
           </BrowserRouter>
         </Provider>
