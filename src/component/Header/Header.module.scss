@@ -2,7 +2,7 @@
 .container {
   display: flex;
   width: 100%;
-  background-color: orange;
+  background-color: coral;
   height: 55px;
 
 
@@ -18,7 +18,7 @@
       padding:0px 20px;
       width: auto;
       font-size: 20px;
-      background-color: orange;
+      background-color: rgba(0,0,0,0);
     }
 
     .buttonMenu {
@@ -29,7 +29,7 @@
       padding:0px 20px;
       width: auto;
       font-size:20px;
-      background-color: orange;
+      background-color: rgba(0,0,0,0);
     }
   }
 }

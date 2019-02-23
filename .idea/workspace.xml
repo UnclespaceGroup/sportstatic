@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f899d88b-061f-4db8-a94a-b275b50d2ecf" name="Default Changelist" comment="header">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Header/Header.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/CardForm1/CardForm1.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/CardForm1/CardForm1.module.scss" afterDir="false" />
+    <list default="true" id="f899d88b-061f-4db8-a94a-b275b50d2ecf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Login/Login.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Login/Login.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header/Header.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Home/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Home.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Register/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Register/Register.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,15 +46,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state>
+              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.module.scss">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -78,11 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/CardForm1/CardForm1.module.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/component/Header/Header.module.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -100,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/src/component/Login/Login.module.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -127,17 +134,17 @@
         <option value="$PROJECT_DIR$/src/component/Header/Header.scss" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/component/Login/Login.module.scss" />
-        <option value="$PROJECT_DIR$/src/component/Header/Header.module.scss" />
         <option value="$PROJECT_DIR$/src/component/Header/Header.jsx" />
         <option value="$PROJECT_DIR$/src/component/CardForm1/CardForm.module1.scss" />
         <option value="$PROJECT_DIR$/src/containers/Home/Home.jsx" />
         <option value="$PROJECT_DIR$/src/containers/Register/Register.jsx" />
-        <option value="$PROJECT_DIR$/src/containers/Home/Home.module.scss" />
         <option value="$PROJECT_DIR$/src/component/CardForm1/CardForm1.jsx" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/containers/CardForm1/CardForm.module1.scss" />
         <option value="$PROJECT_DIR$/src/containers/CardForm1/CardForm1.jsx" />
         <option value="$PROJECT_DIR$/src/containers/CardForm1/CardForm1.module.scss" />
+        <option value="$PROJECT_DIR$/src/containers/Home/Home.module.scss" />
+        <option value="$PROJECT_DIR$/src/component/Header/Header.module.scss" />
       </list>
     </option>
   </component>
@@ -163,6 +170,19 @@
               <item name="sportstatic" type="b2602c69:ProjectViewProjectNode" />
               <item name="sportstatic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sportstatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sportstatic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sportstatic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sportstatic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="Header" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sportstatic" type="b2602c69:ProjectViewProjectNode" />
@@ -268,12 +288,21 @@
       <workItem from="1550515998409" duration="5074000" />
       <workItem from="1550690355616" duration="6399000" />
       <workItem from="1550770200903" duration="9240000" />
-      <workItem from="1550784769824" duration="147000" />
+      <workItem from="1550784769824" duration="575000" />
+      <workItem from="1550912729281" duration="1607000" />
     </task>
+    <task id="LOCAL-00001" summary="Создание страницы Form1 и Header">
+      <created>1550784994108</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550784994108</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49557000" />
+    <option name="totallyTimeSpent" value="51592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -286,21 +315,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.679677" visible="true" weight="0.14702155" />
-      <window_info id="Structure" order="1" sideWeight="0.32032302" side_tool="true" visible="true" weight="0.14702155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67752445" visible="true" weight="0.14702155" />
+      <window_info id="Structure" order="1" sideWeight="0.32247558" side_tool="true" visible="true" weight="0.14702155" />
       <window_info id="Favorites" order="2" sideWeight="0.5008881" side_tool="true" weight="0.17110266" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17362046" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17362046" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49936628" weight="0.32974428" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.2422611" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006337" side_tool="true" weight="0.32974428" />
       <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -352,7 +382,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="header" />
-    <option name="LAST_COMMIT_MESSAGE" value="header" />
+    <MESSAGE value="Создание страницы Form1 и Header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание страницы Form1 и Header" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
@@ -420,13 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/Header/Header.module.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -452,16 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.module.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/CardForm1/CardForm1.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -482,7 +496,7 @@
     <entry file="file://$PROJECT_DIR$/src/component/Login/Login.module.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -490,6 +504,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/Header/Header.module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
