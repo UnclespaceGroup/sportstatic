@@ -4,9 +4,9 @@ import Table from '../Table/Table'
 import AddForm from '../AddForm/AddForm'
 
 class WorkoutType extends React.Component {
-  state = {
-    open: false
-  }
+  // state = {
+  //   open: false
+  // }
 
   render () {
     const {
@@ -16,9 +16,9 @@ class WorkoutType extends React.Component {
         description,
         id
       },
-      state: {
-        open
-      },
+      // state: {
+      //   open
+      // },
       click
     } = this
     return (

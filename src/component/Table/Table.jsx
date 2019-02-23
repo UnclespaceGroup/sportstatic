@@ -3,7 +3,7 @@ import s from './Table.module.scss'
 import TableDay from './TableDay'
 import { bindActionCreators } from 'redux'
 import { AddResult } from '../../actions'
-import connect from 'react-redux/es/connect/connect'
+import { connect } from 'react-redux'
 import _ from 'lodash'
 
 class Table extends React.Component {
