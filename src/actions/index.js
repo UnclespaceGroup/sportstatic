@@ -11,5 +11,14 @@ export const AddData = (data) => {
   }
 }
 
+export const AddResult = (data) => {
+  return dispatch => {
+    dispatch({
+      type: types.ADD_RESULT,
+      payload: data
+    })
+  }
+}
+
 
 // Экшен просто возвращает dispatch
