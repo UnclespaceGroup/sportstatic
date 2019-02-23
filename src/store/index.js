@@ -54,21 +54,21 @@ export const initialStore = {
     gim: {
       today: {
         date: 'Сегодня',
-        approach: {
-          1: {
+        approach: [
+          {
             mass: 25,
             count: 10
           }
-        }
+        ]
       },
       yesterday: {
         date: 'Вчера',
-        approach: {
-          1: {
+        approach: [
+          {
             mass: 20,
             count: 11
           }
-        }
+        ]
       }
     }
   }
