@@ -62,6 +62,10 @@ class AddForm extends React.Component {
       count,
       type: this.props.type
     })
+    this.setState({
+      mass: '',
+      count: ''
+    })
   }
 }
 
