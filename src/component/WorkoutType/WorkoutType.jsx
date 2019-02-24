@@ -4,9 +4,9 @@ import Table from '../Table/Table'
 import AddForm from '../AddForm/AddForm'
 
 class WorkoutType extends React.Component {
-  state = {
-    open: false
-  }
+  // state = {
+  //   open: false
+  // }
 
   render () {
     const {
@@ -14,11 +14,12 @@ class WorkoutType extends React.Component {
         title,
         image,
         description,
-        id
+        id,
+        type
       },
-      state: {
-        open
-      },
+      // state: {
+      //   open
+      // },
       click
     } = this
     return (
@@ -28,7 +29,7 @@ class WorkoutType extends React.Component {
             <div className={s.wrapper}>
               <div className={s.image} style={{backgroundImage: `url(${image})`}} />
               <div className={s.form}>
-                <AddForm {...{id, title, type: 'gim'}} />
+                <AddForm {...{id, title, type}} />
               </div>
             </div>
           </div>
@@ -37,7 +38,7 @@ class WorkoutType extends React.Component {
               <div className={s.header} onClick={click}>{title}</div>
               <div className={s.description}>{description}</div>
               <div className={s.result}>
-                <Table {...{type: 'gim'}} />
+                <Table {...{type}} />
               </div>
             </div>
           </div>

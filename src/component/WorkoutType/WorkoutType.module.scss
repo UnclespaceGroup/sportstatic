@@ -1,6 +1,6 @@
 .container{
   width: 100%;
-  margin: 10px auto;
+  margin: 50px auto;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   border-radius: 15px;
   border: solid 1px rgba(0,0,0,0.2);
@@ -43,4 +43,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (max-width:479px) {
+  .image {
+    width: 100%;
+    height: 200px;
+    background: no-repeat center top;
+    background-size: contain;
+  }
+  .row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .col {
+      width: 100%;
+    }
+  }
 }
