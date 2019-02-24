@@ -48,3 +48,19 @@
   }
 }
 
+@media screen and (max-width:479px) {
+  .container {
+    width: 100%;
+
+    .title{
+      font-size: 50px;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .wrapper {
+      padding: 0 ;
+    }
+  }
+}
+

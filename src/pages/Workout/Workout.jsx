@@ -17,8 +17,8 @@ class Workout extends React.Component {
         <div className={s.title}>{title}</div>
         <div className={s.wrapper}>
           {
-            _.map(types, (type, key)=>
-              <WorkoutType key={key} {...{...type, id}} />
+            _.map(types, (current, key)=>
+              <WorkoutType key={key} {...{...current, id}} />
             )
           }
         </div>

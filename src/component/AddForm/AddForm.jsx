@@ -57,6 +57,8 @@ class AddForm extends React.Component {
       }
     } = this
 
+    if (!(mass && count) || (mass <= 0 || count <= 0)) return
+
     this.props.AddResult({
       mass,
       count,
