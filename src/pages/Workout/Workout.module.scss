@@ -1,5 +1,7 @@
 .container {
   width: 100%;
+  background-color: coral;
+  padding-bottom: 50px;
 
   .title{
     font-size: 50px;
@@ -9,6 +11,7 @@
 
   .wrapper {
     padding: 0 50px;
+    color: black;
   }
 }
 
